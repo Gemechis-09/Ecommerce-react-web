@@ -31,8 +31,6 @@ export default function Auth(){
         <div className="page">
             <div className="container">
                 <div className="auth-container">
-                    {user && <p>User {user.email} is logged in</p>}
-                    <button onClick={logout}>Logout</button>
                     {mode === "signup" ? (<h1 className="page-title">Sign Up</h1>):(<h1 className="page-title">Login</h1>)}
                     <form className="auth-form" onSubmit={handleSubmit(onSubmit)}>
                         {error && <div className="error-message">{error}</div>}
