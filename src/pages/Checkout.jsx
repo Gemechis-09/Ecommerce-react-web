@@ -43,6 +43,7 @@ export default function Checkout(){
                             <p className="checkout-total-label">Total:</p>
                             <p className="checkout-total-value checkout-total-final">${getCartTotal().toFixed(2)}</p>
                         </div>
+                        {/* just for testing purpose */}
                         <button className="btn btn-primary btn-large btn-block" onClick={clearCart}>Place Order</button>
                     </div>
                 </div>
