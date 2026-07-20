@@ -17,6 +17,16 @@ export default function Home(){
                         <ProductsCard product={product} />
                     ))}
                 </div>
+                 <footer
+                    style={{
+                        marginTop: "3rem",
+                        textAlign: "center",
+                        color: "#888",
+                        fontSize: "14px",
+                    }}
+                >
+                    <p>Built by <strong>Gemechis Gelana</strong></p>
+                    </footer>
             </div>
         </div>
     )
